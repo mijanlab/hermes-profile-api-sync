@@ -1,0 +1,13 @@
+[Unit]
+Description=sync-ai-watch: auto-link new Hermes profiles to shared AI credentials
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 __SCRIPT_PATH__
+Restart=always
+RestartSec=5
+User=__SERVICE_USER__
+
+[Install]
+WantedBy=multi-user.target
