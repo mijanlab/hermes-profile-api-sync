@@ -10,7 +10,7 @@ Real-time • One Shared File • No Cron • No Drift
 
 ## The problem
 
-[Hermes Agent](https://claude-code.nousresearch.com/docs) profiles are isolated on purpose — each has its own skills, memory, sessions, and cron, so a web-design profile never picks up cybersecurity skills. But that isolation extends to AI provider logins too: log in to Anthropic in one profile, and your other 8 profiles still say "not connected."
+Hermes Agent profiles are isolated on purpose — each has its own skills, memory, sessions, and cron, so a web-design profile never picks up cybersecurity skills. But that isolation extends to AI provider logins too: log in to Anthropic in one profile, and your other 8 profiles still say "not connected."
 
 ## The fix
 
